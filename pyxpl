@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+
+from pyxample import *
+
+
+if __name__ == '__main__':
+	pyxample.run()
