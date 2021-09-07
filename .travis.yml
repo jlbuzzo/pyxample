@@ -1,0 +1,10 @@
+language: python
+jobs:
+    include:
+        - name: "3.9 Unit Test"
+        python: "3.9"
+        env: TEST_SUITE=suite_3_5_unit
+        - name: "pypy Unit Tests"
+        python: "pypy"
+        env: TEST_SUITE=suite_pypy_unit
+script: .tests/test_ponga.py $TEST_SUITE
