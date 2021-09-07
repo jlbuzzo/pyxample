@@ -62,26 +62,25 @@ img/
 
 # Ignore general doc, building, log, data and timestamp files.
 #*.txt
-#*.pod
-#*.tt
 #*.md
 #*.rst
 #*.tex
 #*.bib
-*.dvi
-*.pdf
-*.html
+#*.sty
+#*.dvi
+#*.pdf
+#*.html
+#*.pod
+#*.tt
 #*.ac
 #*.am
 #*.in
+#*.xml
 *.yml
 *.json
 *.conf
+*.cfg
 *.ini
-*.swp
-*.swo
-*~
-*.bkp
 *.tar.bz2
 *.tar.gz
 *.tar.xz
@@ -89,10 +88,10 @@ img/
 *.tbz
 *.tgz
 *.tar
-*.zip
 *.bz2
 *.gz
 *.xz
+*.zip
 *.db
 *.perldb
 *.csv
@@ -100,7 +99,11 @@ img/
 *.dat
 *.data
 *.log
-*tmp*
+*.bkp
+*.swp
+*.swo
+*~
+*tmp
 *timestamp*
 
 # Ignore code files. (Don't do that!)
@@ -116,13 +119,16 @@ img/
 #*.pm
 #*.t
 #*.py
+*.pyc
 #*.R
 #*.r
+#*.m
 #*.jar
 #*.js
 #*.css
 #*.dck
 #*.aws
+*.exe
 
 
 # Don't ignore general defaults configuration file.
