@@ -27,5 +27,5 @@ jobs:
             - name: Test with pytest
               run: |
                 pwd
-                ls -l
-                pyxpl
+                ls -la
+                ./pyxpl
