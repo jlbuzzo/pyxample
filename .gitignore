@@ -78,7 +78,7 @@ img/
 #*.am
 #*.in
 #*.xml
-*.yml
+#*.yml
 *.json
 *.conf
 *.cfg
