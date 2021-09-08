@@ -4,4 +4,4 @@
 from .main import *
 
 
-__all__ = [ 'pyxample', 'help' ]
+__all__ = [ 'pyxample', 'help', 'test' ]

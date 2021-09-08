@@ -3,13 +3,11 @@
   A little example on how to make a Python package.
 """
 
-version = '0.1.0'
-
+__version__ = '0.1.0'
 
 
 # Export list.
 __all__ = [ 'pyxample', 'help', 'version', 'test' ]
-
 
 
 class pyxample:
@@ -35,8 +33,10 @@ def version(vs = 'some text'):
 
 
 def test():
+    k = pyxample('Test')
+    k.run()
     '''General Unit Tests function.'''
-    print("Testing ...\n")
+    print("Se chegou ate aqui, funcionou ...\n")
 
 
 

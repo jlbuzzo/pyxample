@@ -18,17 +18,18 @@
 !.gitignore
 !.travis.yml
 !environment.yml
+config.yml
 
 
 # Ignore repository's general folders.
 #.git/
 !.github/
-#config/
-#scripts/
 #src/
-#include/
 #lib/
 #libexec/
+#include/
+#scripts/
+#config/
 bin/
 sbin/
 share/
@@ -37,12 +38,16 @@ autom4te.cache
 #man/
 #docs/
 #doc/
+#tests/
+#test/
+#t/
 #cloud/
 #docker/
-#misc/
 #templates/
 #modules/
+#misc/
 #data/
+#bib/
 backup/
 bkp/
 repos/
@@ -50,8 +55,6 @@ packs/
 deps/
 build/
 dist/
-#test/
-t/
 logs/
 log/
 img/
