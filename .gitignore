@@ -11,16 +11,18 @@
 #INSTALL
 #CONTRIBUTING
 #ChangeLog
-#.gitignore
-#.dockerignore
-#Dockerfile
 #configure.ac
 #configure
-#.travis.yml
+#Dockerfile
+#.dockerignore
+!.gitignore
+!.travis.yml
+!environment.yml
 
 
 # Ignore repository's general folders.
 #.git/
+!.github/
 #config/
 #scripts/
 #src/
@@ -129,11 +131,6 @@ img/
 #*.dck
 #*.aws
 *.exe
-
-
-# Don't ignore general defaults configuration file.
-!environment.yml
-!.travis.yml
 
 
 # Ignore runtime structural folders.
