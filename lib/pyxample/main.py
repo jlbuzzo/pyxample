@@ -14,7 +14,7 @@ __all__ = [ 'pyxample', 'help', 'version', 'test' ]
 
 class pyxample:
     '''This is a standard help message.'''
-    def __init__(self, msg = 'Pyxample_msg'):
+    def __init__(self, msg = 'Pyxample'):
         self.name = 'Pyxample'
         self.version = version
         self.id = 0

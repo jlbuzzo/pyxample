@@ -2,9 +2,7 @@
 Configurations of the Distribution.
 """
 
-
 from distutils.core import setup
-
 
 setup(
     name = 'pyxample',
