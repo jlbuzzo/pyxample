@@ -23,7 +23,8 @@ config.yml
 
 # Ignore repository's general folders.
 #.git/
-!.github/
+#.github/
+__pycache__/
 #src/
 #lib/
 #libexec/
